@@ -1,0 +1,92 @@
+body{
+    background-color: #0D0D0D;
+    padding: 100px;  
+}
+h1{
+    color: #ababab;
+    margin-left: 100px;
+    padding-bottom: 10px;
+}
+.box{
+    max-width: 1000px;
+	width: 90%;
+	margin: 0 auto;
+	display: grid;
+	padding: 100px;
+	background: #333;
+    border-radius: 30px;
+	gap: 0px;
+    justify-content: center;
+}
+.item,.selection-item,.history-item{
+    margin: 10px;
+    padding:15px;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+}
+.opcions,.seleccio,.pista,.full{
+    width: 500px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+}
+.blau{
+    background-color:#3F0CF5;
+    border: 2px solid black;
+}
+.verd{
+    background-color: #0DF543;
+    border: 2px solid black;
+}
+.vermell{
+    background-color: #D11030;
+    border: 2px solid black;
+}
+.rosa{
+    background-color: #E637B1;
+    border: 2px solid black;
+}
+.negre{
+    background-color: black;
+    border: 2px solid black;
+}
+.groc{
+    background-color: yellow;
+    border: 2px solid black;
+}
+.lila{
+    background-color: purple;
+    border: 2px solid black;
+}
+
+.full{
+    margin: 10px;
+    padding:15px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #035216;
+    border: 2px solid black;
+}
+
+.half{
+    margin: 10px;
+    padding:15px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: orange;
+    border: 2px solid black;
+}
+.empty{
+    margin: 10px;
+    padding:15px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: white;
+    border: 2px solid black;
+}
